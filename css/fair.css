@@ -1,0 +1,228 @@
+ :root{
+    --pannel-bg: white
+   
+ }
+ *{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+
+
+ .b{
+   background: black;
+  
+   color: white;
+
+ }
+ .b h5{
+   justify-content: center;
+   text-align: center;
+   padding: 2px;
+
+ }
+ header{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background: white;
+   padding: 15px 40px;
+   border-bottom: 1px solid #eee;
+   font-family: Arial, sans-serif;
+   max-width: 100%;
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   z-index: 1000;
+   margin-top: 15px;
+   
+
+   
+
+ }
+.nav{
+list-style: none;
+display: flex;
+gap: 60px;
+justify-content: center;
+white-space: nowrap;
+font-weight: 300;
+}
+.nav a{
+   text-decoration: none;
+   color: #000;
+   font-size: 14px;
+
+}
+.icons{
+   display: flex;
+   gap: 20px;
+}
+.icons a{
+   text-decoration: none;
+   font-size: 14px;
+   color: #000;
+   float: right;
+   font-weight: 300;
+}
+.bg1{
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  flex: 1;
+  margin-top: 80px;
+  
+
+}
+.images{
+  margin-left: 15px;
+
+}
+.image{
+  margin-right: 15px;
+
+}
+h1{
+  color: rgb(52, 13, 52);
+  text-align: center;
+  margin: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: light;
+}
+.cont{
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+}
+.box6{
+  font-weight: lighter;
+  justify-content: flex-start;
+}
+  .box7{
+    text-align: end;
+  }
+
+
+.box.h3{
+  font-style: oblique;
+  font-weight: lighter;
+  font-size: small;
+}
+ /* Page setup */
+section {
+  font-family: Arial, sans-serif;
+  background: #faf9f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-top: -40px;
+}
+
+.contain {
+  text-align: center;
+}
+
+/* JIMMY FAIRLY text (no hover effect) */
+h1 {
+  font-weight: 500;
+  letter-spacing: 5px;
+  margin-bottom: 40px;
+  color: #000;
+}
+
+/* Input + button */
+.input-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  width: 300px;
+  margin: 0 auto 20px auto;
+}
+
+.input-box input {
+  border: none;
+  outline: none;
+  background: transparent;
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+
+
+.input-box button {
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+
+/* Terms */
+.terms {
+  font-size: 14px;
+  color: #444;
+  display: block;
+  margin-top: 10px;
+}
+
+.terms input {
+  margin-right: 8px;
+}
+
+.terms a {
+  color: #000;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+:hover .input-box {
+  border-bottom:  red;
+}
+
+form:hover .input-box input,
+form:hover .input-box button,
+form:hover .terms,
+form:hover .terms a {
+  color: red;
+}
+.moon{
+
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+}
+.flex{
+  display: flex;
+  gap: 40px;
+  font-size: larger;
+
+  
+}
+.box1{
+  background: red;
+  order: 2;
+}
+.box2{
+  background: blue;
+  order: 1;
+}
+.box3{
+  background: yellow;
+  order: 3;
+}
+.box4{
+  background: green;
+  order: 0;
+}

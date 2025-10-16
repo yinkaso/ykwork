@@ -1,0 +1,105 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    /* Background image*/
+    background: url('../images/drone.jpg') no-repeat center center fixed;
+    background-size: cover;
+    
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 48px;
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(6px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    z-index: 1;
+    top: 100px;
+    bottom: 10px;
+    left: 15px;
+    right: 15px;
+
+}
+/* Logo */
+.logo {
+    height: 36px;
+}
+/* Nav */
+nav {
+    display: inline-block
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #0a2540;
+    font-weight: 500;
+    padding: 6px 8px;
+}
+
+/* buttons */
+.btn {
+    padding: 8px 14px;
+    border-radius: 999px;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: all 0.2s ease;
+}
+
+/* login button */
+.btn.login {
+    border: 1px solid rgba(10, 20, 30, 0.05);
+    background: transparent;
+    color: #0a2540;
+    border-color: #0a2540;
+}
+.btn.login:hover {
+    background: #0a2540;
+    color: #fff;
+    border-color: #2c3e50;
+}
+.btn.login:active {
+    background: #fff;
+    color: #2c3e50;
+}
+
+
+/* Get a quote button */
+.btn.quote {
+    background: #0a2540;
+    color: #fff;
+    border: 1px solid #0a2540;
+}
+.btn.quote:hover {
+    background: transparent;
+    border-color: #0a2540;
+    color: #0a2540;
+}
+
+.btn.quote:active {
+    background: #fff;
+    color: #0a2540;
+}
+/* Active link */
+nav ul li a.active {
+    color: #0a2540;
+    background: blue;
+    font-weight: 700;
+}
